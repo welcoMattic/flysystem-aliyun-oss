@@ -1,0 +1,36 @@
+{
+    "name": "welcomattic/flysystem-aliyun-oss",
+    "description": "Aliyun OSS filesystem adapter for Flysystem.",
+    "keywords": ["aliyun", "alibaba", "alibabacloud", "oss", "flysystem", "filesystem", "storage", "file", "files"],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "WelcoMattic\\Flysystem\\AliyunOss\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WelcoMattic\\Flysystem\\AliyunOss\\Test\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "league/flysystem": "^2.0.0",
+        "aliyuncs/oss-sdk-php": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 | ^9.3",
+        "league/flysystem-adapter-test-utilities": "^2.0",
+        "league/mime-type-detection": "^1.7",
+        "rector/rector": "^0.12.5",
+        "friendsofphp/php-cs-fixer": "^3.3",
+        "phpstan/phpstan": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mathieu Santostefano",
+            "email": "msantostefano@protonmail.com"
+        }
+    ]
+}
