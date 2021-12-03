@@ -24,3 +24,13 @@ $adapter = new AliyunOssAdapter($client, $bucket);
 
 $filesystem = new Filesystem($adapter);
 ```
+
+
+## Credits
+
+- [Mathieu Santostefano](https://github.com/welcoMattic)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
